@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="bibliotheque">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice minOccurs="1" maxOccurs="unbounded">
+                    <xs:element name="livre">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="titre" type="xs:string"/>
+                                <xs:element name="auteur" type="xs:string"/>
+                                <xs:element name="prix" type="xs:decimal"/>
+                                <xs:element name="disponible" type="xs:boolean"/>
+                            </xs:sequence>
+                            <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="magazine">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="titre" type="xs:string"/>
+                                <xs:element name="numero" type="xs:positiveInteger"/>
+                                <xs:element name="prix" type="xs:decimal"/>
+                                <xs:element name="disponible" type="xs:boolean"/>
+                            </xs:sequence>
+                            <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="bandeDessinee">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="titre" type="xs:string"/>
+                                <xs:element name="illustrateur" type="xs:string"/>
+                                <xs:element name="prix" type="xs:decimal"/>
+                                <xs:element name="disponible" type="xs:boolean"/>
+                            </xs:sequence>
+                            <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+

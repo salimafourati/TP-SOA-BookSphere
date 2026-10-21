@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bibliotheque>
+
+    <livre id="1">
+        <titre>Les Miserables</titre>
+        <auteur>Victor Hugo</auteur>
+        <prix>35.5</prix>
+        <disponible>true</disponible>
+    </livre>
+
+    <livre id="2">
+        <titre>Le Petit Prince</titre>
+        <auteur>Antoine de Saint-Exupery</auteur>
+        <prix>22.0</prix>
+        <disponible>true</disponible>
+    </livre>
+
+    <livre id="3">
+        <titre>1984</titre>
+        <auteur>George Orwell</auteur>
+        <prix>30.0</prix>
+        <disponible>false</disponible>
+    </livre>
+
+    <livre id="4">
+        <titre>L'Etranger</titre>
+        <auteur>Albert Camus</auteur>
+        <prix>24.0</prix>
+        <disponible>true</disponible>
+    </livre>
+
+    <livre id="5">
+        <titre>Harry Potter a l'ecole des sorciers</titre>
+        <auteur>J.K. Rowling</auteur>
+        <prix>40.0</prix>
+        <disponible>true</disponible>
+    </livre>
+
+    <livre id="6">
+        <titre>Le Seigneur des anneaux</titre>
+        <auteur>J.R.R. Tolkien</auteur>
+        <prix>55.0</prix>
+        <disponible>false</disponible>
+    </livre>
+
+    <livre id="7">
+        <titre>Notre-Dame de Paris</titre>
+        <auteur>Victor Hugo</auteur>
+        <prix>32.0</prix>
+        <disponible>true</disponible>
+    </livre>
+
+    <livre id="8">
+        <titre>L'Alchimiste</titre>
+        <auteur>Paulo Coelho</auteur>
+        <prix>28.0</prix>
+        <disponible>true</disponible>
+    </livre>
+
+    <livre id="9">
+        <titre>Le Rouge et le Noir</titre>
+        <auteur>Stendhal</auteur>
+        <prix>26.0</prix>
+        <disponible>false</disponible>
+    </livre>
+
+    <livre id="10">
+        <titre>Les Fleurs du mal</titre>
+        <auteur>Charles Baudelaire</auteur>
+        <prix>20.0</prix>
+        <disponible>true</disponible>
+    </livre>
+
+    <magazine id="11">
+        <titre>Science et Vie</titre>
+        <numero>1250</numero>
+        <prix>12.0</prix>
+        <disponible>true</disponible>
+    </magazine>
+
+    <magazine id="12">
+        <titre>National Geographic</titre>
+        <numero>320</numero>
+        <prix>15.0</prix>
+        <disponible>false</disponible>
+    </magazine>
+
+    <magazine id="13">
+        <titre>Geo</titre>
+        <numero>510</numero>
+        <prix>10.0</prix>
+        <disponible>true</disponible>
+    </magazine>
+
+    <magazine id="14">
+        <titre>Capital</titre>
+        <numero>380</numero>
+        <prix>14.0</prix>
+        <disponible>true</disponible>
+    </magazine>
+
+    <magazine id="15">
+        <titre>Le Point</titre>
+        <numero>2750</numero>
+        <prix>13.0</prix>
+        <disponible>false</disponible>
+    </magazine>
+
+    <magazine id="16">
+        <titre>Pour la Science</titre>
+        <numero>560</numero>
+        <prix>16.0</prix>
+        <disponible>true</disponible>
+    </magazine>
+
+    <magazine id="17">
+        <titre>National Geographic Kids</titre>
+        <numero>150</numero>
+        <prix>9.0</prix>
+        <disponible>true</disponible>
+    </magazine>
+
+    <magazine id="18">
+        <titre>Courrier International</titre>
+        <numero>1800</numero>
+        <prix>11.0</prix>
+        <disponible>false</disponible>
+    </magazine>
+
+    <magazine id="19">
+        <titre>Challenges</titre>
+        <numero>850</numero>
+        <prix>12.5</prix>
+        <disponible>true</disponible>
+    </magazine>
+
+    <magazine id="20">
+        <titre>Historia</titre>
+        <numero>920</numero>
+        <prix>10.5</prix>
+        <disponible>true</disponible>
+    </magazine>
+
+    <bandeDessinee id="21">
+        <titre>Asterix et Cleopatre</titre>
+        <illustrateur>Albert Uderzo</illustrateur>
+        <prix>18.0</prix>
+        <disponible>true</disponible>
+    </bandeDessinee>
+
+    <bandeDessinee id="22">
+        <titre>Tintin au Tibet</titre>
+        <illustrateur>Herge</illustrateur>
+        <prix>20.0</prix>
+        <disponible>false</disponible>
+    </bandeDessinee>
+
+    <bandeDessinee id="23">
+        <titre>Lucky Luke</titre>
+        <illustrateur>Morris</illustrateur>
+        <prix>16.0</prix>
+        <disponible>true</disponible>
+    </bandeDessinee>
+
+    <bandeDessinee id="24">
+        <titre>Le Chat du Rabbin</titre>
+        <illustrateur>Joann Sfar</illustrateur>
+        <prix>22.0</prix>
+        <disponible>true</disponible>
+    </bandeDessinee>
+
+    <bandeDessinee id="25">
+        <titre>Spirou et Fantasio</titre>
+        <illustrateur>Andre Franquin</illustrateur>
+        <prix>17.0</prix>
+        <disponible>false</disponible>
+    </bandeDessinee>
+
+    <bandeDessinee id="26">
+        <titre>Les Schtroumpfs</titre>
+        <illustrateur>Peyo</illustrateur>
+        <prix>15.0</prix>
+        <disponible>true</disponible>
+    </bandeDessinee>
+
+    <bandeDessinee id="27">
+        <titre>One Piece</titre>
+        <illustrateur>Eiichiro Oda</illustrateur>
+        <prix>12.0</prix>
+        <disponible>true</disponible>
+    </bandeDessinee>
+
+    <bandeDessinee id="28">
+        <titre>Dragon Ball</titre>
+        <illustrateur>Akira Toriyama</illustrateur>
+        <prix>13.0</prix>
+        <disponible>false</disponible>
+    </bandeDessinee>
+    <bandeDessinee id="29">
+        <titre>Les Aventures de Blake et Mortimer</titre>
+        <illustrateur>Edgar P. Jacobs</illustrateur>
+        <prix>24.0</prix>
+        <disponible>true</disponible>
+    </bandeDessinee>
+    <bandeDessinee id="30">
+        <titre>Garfield</titre>
+        <illustrateur>Jim Davis</illustrateur>
+        <prix>14.0</prix>
+        <disponible>true</disponible>
+    </bandeDessinee>
+</bibliotheque>
